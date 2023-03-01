@@ -12,7 +12,7 @@ Just click on [![Use this template](https://img.shields.io/badge/-Use%20this%20t
 
 Once created don't forget to update the:
 - [App ID](buildSrc/src/main/java/Coordinates.kt)
-- AndroidManifest ([here](app/src/main/AndroidManifest.xml) and [here](library-android/src/main/AndroidManifest.xml))
+- AndroidManifest ([here](app/src/main/AndroidManifest.xml)
 - Package of the source files
 
 ## Features 🎨
@@ -91,7 +91,6 @@ You probably want to disable the [Publish Snapshot] and [Publish Release](.githu
 The project includes three sub-projects, each in their own subdirectories:
 
 - **`app`:** The source for the final Android application.
-- **`library-android`:** The source for an Android library including UI.
 - **`library-kotlin`:** The source for a UI-less Kotlin library.
 - **`library-compose`:** The source for a UI library with Jetpack Compose library.
 
