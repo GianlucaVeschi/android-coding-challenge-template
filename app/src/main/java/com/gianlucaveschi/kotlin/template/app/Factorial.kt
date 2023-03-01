@@ -26,7 +26,6 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.gianlucaveschi.kotlin.template.library.FactorialCalculator
 import kotlinx.coroutines.launch
-import java.lang.IllegalStateException
 
 @Suppress("LongMethod")
 @Composable

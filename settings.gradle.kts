@@ -19,6 +19,5 @@ enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 include(
     "app",
-    "library-compose",
     "library-kotlin"
 )
