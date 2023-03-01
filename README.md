@@ -18,7 +18,6 @@ Once created don't forget to update the:
 ## Features 🎨
 
 - **100% Kotlin-only template**.
-- 4 Sample modules (Android app, Android library, Kotlin library, Jetpack Compose Activity).
 - Jetpack Compose setup ready to use. 
 - Sample Espresso, Instrumentation & JUnit tests.
 - 100% Gradle Kotlin DSL setup.
