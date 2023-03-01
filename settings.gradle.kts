@@ -18,6 +18,5 @@ rootProject.name = ("kotlin-android-template")
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 include(
-    "app",
-    "library-kotlin"
+    "app"
 )

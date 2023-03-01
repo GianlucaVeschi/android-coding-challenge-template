@@ -91,7 +91,6 @@ You probably want to disable the [Publish Snapshot] and [Publish Release](.githu
 The project includes three sub-projects, each in their own subdirectories:
 
 - **`app`:** The source for the final Android application.
-- **`library-kotlin`:** The source for a UI-less Kotlin library.
 
 The following additional top-level directories configure & support building the app & projects:
 

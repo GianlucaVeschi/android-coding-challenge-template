@@ -24,7 +24,6 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.gianlucaveschi.kotlin.template.library.FactorialCalculator
 import kotlinx.coroutines.launch
 
 @Suppress("LongMethod")
@@ -43,7 +42,7 @@ fun Factorial(modifier: Modifier = Modifier) {
             style = MaterialTheme.typography.h6
         )
         Text(
-            text = "You can compute a factorial using the library-kotlin module.",
+            text = "You can compute a factorial.",
             style = MaterialTheme.typography.body1
         )
         TextField(
