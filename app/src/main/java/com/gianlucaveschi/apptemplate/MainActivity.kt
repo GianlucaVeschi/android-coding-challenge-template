@@ -1,4 +1,4 @@
-package com.gianlucaveschi.kotlin.template.app
+package com.gianlucaveschi.apptemplate
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

@@ -1,4 +1,4 @@
-package com.gianlucaveschi.kotlin.template.app
+package com.gianlucaveschi.apptemplate
 
 object FactorialCalculator {
     private const val MAX_FACTORIAL_64BIT = 20

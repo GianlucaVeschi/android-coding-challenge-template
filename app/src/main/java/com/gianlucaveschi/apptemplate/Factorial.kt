@@ -1,4 +1,4 @@
-package com.gianlucaveschi.kotlin.template.app
+package com.gianlucaveschi.apptemplate
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.ExperimentalAnimationApi
