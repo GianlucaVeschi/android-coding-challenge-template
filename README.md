@@ -2,14 +2,8 @@
 
 ![Build](https://github.com/GianlucaVeschi/android-kotlin-template/workflows/Pre%20Merge%20Checks/badge.svg)
 
-This is your new Kotlin Android Project! Happy hacking!
-
-## Template ToDo list 👣
-
-- [x] Create a new template project.
-- [ ] Choose a [LICENSE](https://github.com/GianlucaVeschi/android-kotlin-template/community/license/new?branch=main).
-- [ ] Set your `ORG_GRADLE_PROJECT_NEXUS_USERNAME`, `ORG_GRADLE_PROJECT_NEXUS_PASSWORD`, `ORG_GRADLE_PROJECT_SIGNING_KEY` and `ORG_GRADLE_PROJECT_SIGNING_PWD` secrets in [Settings](https://github.com/GianlucaVeschi/android-kotlin-template/settings/secrets/actions).
-- [ ] Code some cool apps and libraries 🚀.
+Ready to kick off your next Android project?
+This template will get you started as quick as possible with a lot of interesting features, so you cab focus directly on your application.
 
 ## Features 🎨
 
