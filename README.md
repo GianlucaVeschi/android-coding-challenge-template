@@ -5,15 +5,16 @@ This template will get you started as quick as possible with a lot of interestin
 
 ## Features 🎨
 
-- **100% Kotlin-only template**.
-- Jetpack Compose setup ready to use. 
-- Sample Espresso, Instrumentation & JUnit tests.
-- 100% Gradle Kotlin DSL setup.
-- CI Setup with GitHub Actions.
-- Dependency versions managed via `buildSrc`.
-- Kotlin Static Analysis via `detekt` and `ktlint`.
-- Issues Template (bug report + feature request).
-- Pull Request Template.
+- **100% Kotlin-only template**. [x]
+- Jetpack Compose setup ready to use. [x]
+- Dagger Hilt, Retrofit, OkHttp, Room [ ]
+- Sample Espresso, Instrumentation & JUnit tests. [x]
+- 100% Gradle Kotlin DSL setup. [x]
+- CI Setup with GitHub Actions. [x]
+- Dependency versions managed via `buildSrc`. [x]
+- Kotlin Static Analysis via `detekt` and `ktlint`. [x]
+- Issues Template (bug report + feature request). [x]
+- Pull Request Template. [x]
 
 ## Gradle Setup 🐘
 
