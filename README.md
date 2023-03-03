@@ -1,19 +1,15 @@
-# kotlin-android-template 🤖
+# androidkotlintemplate
 
-[![Use this template](https://img.shields.io/badge/from-kotlin--android--template-brightgreen?logo=dropbox)](https://github.com/cortinico/kotlin-android-template/generate) ![Pre Merge Checks](https://github.com/cortinico/kotlin-android-template/workflows/Pre%20Merge%20Checks/badge.svg)  ![License](https://img.shields.io/github/license/cortinico/kotlin-android-template.svg) ![Language](https://img.shields.io/github/languages/top/cortinico/kotlin-android-template?color=blue&logo=kotlin)
+![Build](https://github.com/GianlucaVeschi/android-kotlin-template/workflows/Pre%20Merge%20Checks/badge.svg)
 
-A simple Github template that lets you create an **Android/Kotlin** project and be up and running in a **few seconds**. 
+This is your new Kotlin Android Project! Happy hacking!
 
-This template is focused on delivering a project with **static analysis** and **continuous integration** already in place.
+## Template ToDo list 👣
 
-## How to use 👣
-
-Just click on [![Use this template](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/cortinico/kotlin-android-template/generate) button to create a new repo starting from this template.
-
-Once created don't forget to update the:
-- [App ID](buildSrc/src/main/java/Coordinates.kt)
-- AndroidManifest ([here](app/src/main/AndroidManifest.xml)
-- Package of the source files
+- [x] Create a new template project.
+- [ ] Choose a [LICENSE](https://github.com/GianlucaVeschi/android-kotlin-template/community/license/new?branch=main).
+- [ ] Set your `ORG_GRADLE_PROJECT_NEXUS_USERNAME`, `ORG_GRADLE_PROJECT_NEXUS_PASSWORD`, `ORG_GRADLE_PROJECT_SIGNING_KEY` and `ORG_GRADLE_PROJECT_SIGNING_PWD` secrets in [Settings](https://github.com/GianlucaVeschi/android-kotlin-template/settings/secrets/actions).
+- [ ] Code some cool apps and libraries 🚀.
 
 ## Features 🎨
 
