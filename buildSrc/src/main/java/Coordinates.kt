@@ -1,5 +1,3 @@
-const val PUBLISHING_GROUP = "com.gianlucaveschi.kotlin.template"
-
 object AppCoordinates {
     const val APP_ID = "com.gianlucaveschi.kotlin.template.app"
 

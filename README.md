@@ -18,7 +18,6 @@ This is your new Kotlin Android Project! Happy hacking!
 - Sample Espresso, Instrumentation & JUnit tests.
 - 100% Gradle Kotlin DSL setup.
 - CI Setup with GitHub Actions.
-- Publish to **Maven Central** with Github Actions.
 - Dependency versions managed via `buildSrc`.
 - Kotlin Static Analysis via `detekt` and `ktlint`.
 - Issues Template (bug report + feature request).
@@ -40,33 +39,7 @@ This template is using [**GitHub Actions**](https://github.com/cortinico/kotlin-
 
 There are currently the following workflows available:
 - [Validate Gradle Wrapper](.github/workflows/gradle-wrapper-validation.yml) - Will check that the gradle wrapper has a valid checksum
-- [Pre Merge Checks](.github/workflows/pre-merge.yaml) - Will run the `build`, `check` and `publishToMavenLocal` tasks.
-
-## Publishing 🚀
-
-The template is setup to be **ready to publish** a library/artifact on a Maven Repository.
-
-For every module you want to publish you simply have to add the `publish` plugin:
-
-```
-plugins {
-    publish
-}
-```
-
-### To Maven Central
-
-In order to use this template to publish on Maven Central, you need to configure some secrets on your repository:
-
-| Secret name | Value |
-| --- | --- | 
-| `ORG_GRADLE_PROJECT_NEXUS_USERNAME` | The username you use to access Sonatype's services (such as [Nexus](https://oss.sonatype.org/) and [Jira](https://issues.sonatype.org/)) |
-| `ORG_GRADLE_PROJECT_NEXUS_PASSWORD` | The password you use to access Sonatype's services (such as [Nexus](https://oss.sonatype.org/) and [Jira](https://issues.sonatype.org/)) |
-| `ORG_GRADLE_PROJECT_SIGNING_KEY` | The GPG Private key to sign your artifacts. You can obtain it with `gpg --armor --export-secret-keys <your@email.here>` or you can create one key online on [pgpkeygen.com](https://pgpkeygen.com). The key starts with a `-----BEGIN PGP PRIVATE KEY BLOCK-----`. |
-| `ORG_GRADLE_PROJECT_SIGNING_PWD` | The passphrase to unlock your private key (you picked it when creating the key). |
-
-The template already sets up [Dokka](https://kotlin.github.io/dokka/) for project documentation and attaches `-sources.jar` to your publications,
-via the new AGP publishing DSL.
+- [Pre Merge Checks](.github/workflows/pre-merge.yaml) - Will run the `build`, `check` tasks.
 
 ## Project Structure
 
