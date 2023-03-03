@@ -1,9 +1,7 @@
 # androidkotlintemplate
 
-![Build](https://github.com/GianlucaVeschi/android-kotlin-template/workflows/Pre%20Merge%20Checks/badge.svg)
-
 Ready to kick off your next Android project?
-This template will get you started as quick as possible with a lot of interesting features, so you cab focus directly on your application.
+This template will get you started as quick as possible with a lot of interesting features, so you can focus directly on your application.
 
 ## Features 🎨
 
