@@ -1,6 +1,7 @@
 plugins {
     id("com.android.application")
     kotlin("android")
+    kotlin("kapt")
 }
 
 android {
@@ -73,8 +74,15 @@ dependencies {
     implementation(libs.compose.material)
 
     implementation(libs.retrofit)
+    implementation(libs.okhttp)
+    implementation(libs.coil)
+    implementation(libs.timber)
+
+    implementation(libs.bundles.room)
+    kapt(libs.room.compiler)
 
     testImplementation(libs.junit)
+    testImplementation(libs.coroutines)
 
     debugImplementation(libs.compose.ui.test.manifest)
     androidTestImplementation(libs.compose.ui.test.junit4)
