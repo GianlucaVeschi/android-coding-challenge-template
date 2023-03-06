@@ -72,6 +72,8 @@ dependencies {
     implementation(libs.compose.foundation)
     implementation(libs.compose.material)
 
+    implementation(libs.retrofit)
+
     testImplementation(libs.junit)
 
     debugImplementation(libs.compose.ui.test.manifest)
