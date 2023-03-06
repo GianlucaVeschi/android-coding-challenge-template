@@ -19,6 +19,12 @@ ktlint_gradle = "10.2.1"
 min_sdk_version = "21"
 target_sdk_version = "33"
 benmanesversion = "0.46.0"
+retrofit = "2.9.0"
+okhttp = "4.10.0"
+timber = "5.0.1"
+coil = "2.2.2"
+coroutines = "1.5.1"
+room = "2.5.0"
 
 [libraries]
 junit = { module = "junit:junit", version.ref = "junit" }
@@ -40,8 +46,20 @@ detekt_formatting = { module = "io.gitlab.arturbosch.detekt:detekt-formatting", 
 espresso_core = { module = "androidx.test.espresso:espresso-core", version.ref = "espresso.core" }
 agp = { module = "com.android.tools.build:gradle", version.ref = "agp" }
 kgp = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
-dokka_gradle_plugin = { module = "org.jetbrains.dokka:dokka-gradle-plugin", version.ref = "dokka"}
-dokka_core = { module = "org.jetbrains.dokka:dokka-core", version.ref = "dokka"}
+dokka_gradle_plugin = { module = "org.jetbrains.dokka:dokka-gradle-plugin", version.ref = "dokka" }
+dokka_core = { module = "org.jetbrains.dokka:dokka-core", version.ref = "dokka" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+okhttp = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "okhttp" }
+timber = { module = "com.jakewharton.timber:timber", version.ref = "timber" }
+coil = { module = "io.coil-kt:coil-compose", version.ref = "coil" }
+coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "coroutines" }
+room-ktx = { module = "androidx.room:room-ktx", version.ref = "room" }
+room-paging = { module = "androidx.room:room-paging", version.ref = "room" }
+room-runtime = { module = "androidx.room:room-runtime", version.ref = "room" }
+room-compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
+
+[bundles]
+room = ["room-ktx", "room-paging", "room-runtime"]
 
 [plugins]
 detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt" }
