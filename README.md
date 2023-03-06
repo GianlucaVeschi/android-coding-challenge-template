@@ -1,4 +1,4 @@
-# Android Project Template
+# Android Coding Challenge Template
 
 Ready to kick off your next Android project?
 This template will get you started as quick as possible with a lot of interesting features, so you can focus directly on your application.
