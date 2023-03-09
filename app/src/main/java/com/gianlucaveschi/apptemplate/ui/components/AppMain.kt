@@ -1,8 +1,5 @@
-package com.gianlucaveschi.apptemplate
+package com.gianlucaveschi.apptemplate.ui.components
 
-import android.os.Bundle
-import androidx.activity.ComponentActivity
-import androidx.activity.compose.setContent
 import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -19,16 +16,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-
-class MainActivity : ComponentActivity() {
-    @ExperimentalAnimationApi
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContent {
-            AppMain()
-        }
-    }
-}
 
 @ExperimentalAnimationApi
 @Preview

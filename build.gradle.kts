@@ -3,6 +3,7 @@ import com.github.benmanes.gradle.versions.updates.DependencyUpdatesTask
 plugins {
     id("com.android.application") apply false
     id("com.android.library") apply false
+    id("com.google.dagger.hilt.android") version "2.44" apply false
     kotlin("android") apply false
     alias(libs.plugins.detekt)
     alias(libs.plugins.versions)

@@ -16,10 +16,6 @@ This template will get you started as quick as possible with a lot of interestin
 - Issues Template (bug report + feature request). :heavy_check_mark:
 - Pull Request Template. :heavy_check_mark:
 
-## ToDos 🎨
-- Create App class & declare it in manifest
-- Setup Hilt in Activity and ViewModel
-
 ## Gradle Setup 🐘
 
 This template is using [**Gradle Kotlin DSL**](https://docs.gradle.org/current/userguide/kotlin_dsl.html) as well as the [Plugin DSL](https://docs.gradle.org/current/userguide/plugins.html#sec:plugins_block) to setup the build.

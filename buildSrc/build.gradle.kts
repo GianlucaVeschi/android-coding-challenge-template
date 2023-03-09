@@ -9,6 +9,7 @@ repositories {
 dependencies {
     implementation(libs.kgp)
     implementation(libs.agp)
+    implementation("com.squareup:javapoet:1.13.0")
 }
 
 tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach {
