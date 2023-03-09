@@ -14,8 +14,10 @@ import androidx.compose.material.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.gianlucaveschi.kotlin.template.app.R
 
 @ExperimentalAnimationApi
 @Preview
@@ -25,7 +27,7 @@ fun AppMain() {
         Scaffold(
             topBar = {
                 TopAppBar(
-                    title = { Text(text = "Kotlin Android Template") },
+                    title = { Text(text = stringResource(R.string.app_name) },
                     backgroundColor = MaterialTheme.colors.primary
                 )
             },
