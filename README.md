@@ -7,7 +7,7 @@ This template will get you started as quick as possible with a lot of interestin
 
 - **100% Kotlin-only template**. :heavy_check_mark: 
 - Jetpack Compose setup ready to use. :heavy_check_mark:
-- Dagger Hilt, Retrofit, OkHttp, Room
+- Dagger Hilt, Retrofit, OkHttp, Room :heavy_check_mark:
 - Sample Espresso, Instrumentation & JUnit tests. :heavy_check_mark:
 - 100% Gradle Kotlin DSL setup. :heavy_check_mark:
 - CI Setup with GitHub Actions. :heavy_check_mark:
@@ -15,6 +15,10 @@ This template will get you started as quick as possible with a lot of interestin
 - Kotlin Static Analysis via `detekt` and `ktlint`. :heavy_check_mark:
 - Issues Template (bug report + feature request). :heavy_check_mark:
 - Pull Request Template. :heavy_check_mark:
+
+## ToDos 🎨
+- Create App class & declare it in manifest
+- Setup Hilt in Activity and ViewModel
 
 ## Gradle Setup 🐘
 
